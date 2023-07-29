@@ -1,12 +1,16 @@
-﻿## MIK Encoding
+﻿## Skyware.Text.Encoding
 
-MIK (МИК) is an 8-bit Cyrillic code page used with DOS. 
-It is based on the character set used in the Bulgarian Pravetz 16 IBM PC compatible systems. 
+Supported encodings:
+
+### MIK
+
+MIK (МИК) is an 8-bit Cyrillic code page used with DOS and hardware devices. 
+It is based on the character set used in the Pravetz computers (8x series, 16x series, etc.). 
 Kermit calls this character set "BULGARIA-PC" / "bulgaria-pc".
 This code page is known by FreeDOS as Code page 3021.
 
-Even the standard is old, it is still in use, including in hardware products.
+Even thogh the standard is old, it is still in use, including in hardware devices, such as cash registers, label printers, etc.
 
-**Note** Characters with code 192-255 are not yet implemented
+**Note**: Characters with codes 192-255 are not yet implemented.
 
-<sub><sup>The NuGet logo is actually a logo of Pravetz Microprocessor Systems company</sup></sub>
+**Disclaimer**: The NuGet logo is actually a logo of Pravetz Microprocessor Systems company and its successors. SKYWARE Group is in no way affiliated with these companies.
