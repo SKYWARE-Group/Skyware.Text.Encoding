@@ -12,7 +12,7 @@
     <SignAssembly>false</SignAssembly>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>Skyware.Text.Encoding</PackageId>
-    <RepositoryUrl>https://github.com/SKYWARE-Group/Arda.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/SKYWARE-Group/Skyware.Text.Encoding</RepositoryUrl>
     <AssemblyName>Skyware.Text.Encoding</AssemblyName>
     <RootNamespace>Skyware.Text.Encoding</RootNamespace>
     <RepositoryType>git</RepositoryType>
