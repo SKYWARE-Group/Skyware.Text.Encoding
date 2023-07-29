@@ -1,4 +1,4 @@
-# Skyware.Text.Encoding
+# <img src="MikEncoding/Assets/mik-encoding.png" height="48"> Skyware.Text.Encoding
 
 Non-standard encodings for .NET platform.
 
