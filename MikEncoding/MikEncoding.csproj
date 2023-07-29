@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>10.0</LangVersion>
+    <Version>1.0.0</Version>
+    <Company>SKYWARE Group</Company>
+    <Product>MIK Encoding</Product>
+    <Authors>Mikhail Kalatchev</Authors>
+    <Description>8-bit Cyrillic code page used in DOS and devices</Description>
+    <Copyright>Copyright (C) SKYWARE Group, 2020-2023</Copyright>
+    <SignAssembly>false</SignAssembly>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Skyware.Text.Encoding</PackageId>
+    <RepositoryUrl>https://github.com/SKYWARE-Group/Arda.git</RepositoryUrl>
+    <AssemblyName>Skyware.Text.Encoding</AssemblyName>
+    <RootNamespace>Skyware.Text.Encoding</RootNamespace>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>MIK;Pravetz;Encoding</PackageTags>
+    <PackageIcon>mik-encoding.png</PackageIcon>
+    <PackageReadmeFile>mik-encoding-readme.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>MIK Encoding</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\mik-encoding-readme.md" />
+    <None Remove="Assets\mik-encoding.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\mik-encoding-readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\mik-encoding.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
