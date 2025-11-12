@@ -1,8 +1,7 @@
-﻿// Ignore Spelling: MIK
-
-using System;
+﻿using System;
 using System.Linq;
-using System.Reflection;
+
+// Ignore Spelling: MIK
 
 namespace Skyware.Text.Encoding;
 
@@ -92,7 +91,7 @@ public class MIK : System.Text.Encoding
                 bytes[byteIndex + (ix / 2)] = (byte)charCode;
             else if (charCode >= UC_OFFSET && charCode <= UC_OFFSET + 64)
                 // 128 (80) - 191 (BF) Cyrillic characters
-                bytes[charIndex + (ix / 2)] = (byte)(MIK_BASE + (charCode - UC_OFFSET)); 
+                bytes[charIndex + (ix / 2)] = (byte)(MIK_BASE + (charCode - UC_OFFSET));
             else
                 bytes[byteIndex + (ix / 2)] = 0x3f; // = '?'
         }
